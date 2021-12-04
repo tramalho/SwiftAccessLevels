@@ -11,10 +11,12 @@ import Foundation
 class AnotherClassInAnotherFile {
     
     init() {
-        
+        let aClass = AClass()
         //Step 8. Try to print aFilePrivateProperty Here
+        //print("\(aClass.aPrivateProperty) printed from init in AnotherClassInAnotherFile")
         
         //Step 10. Try to print anInternalProperty Here
+        print("\(aClass.anInternalProperty) printed from init in AnotherClassInAnotherFile")
         
     }
     
